@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Fermi Semiconductors", layout="wide")
 
 # Sidebar for navigation
-st.sidebar.title("🔍 Navigation")
+st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Digital Design", "Analog Design", "ASIC Design", "Projects", "Contact"])
 
 # ---------------------- Homepage ----------------------
@@ -13,12 +13,12 @@ if page == "Home":
     st.subheader("Designing the Future of Semiconductor Chips")
 
     st.markdown("""
-    Welcome to **Fermi Semiconductors**, a chip design startup focused on building innovative and accessible solutions for digital, analog, and ASIC design flows.
+    Welcome to **Fermi Semiconductors**, a chip design startup focused on building a AI Agent for digital VLSI design especially from layout to GDSII file generation using open-source tools involves integrating multiple components of the physical design flow and possibly layering AI/ML or LLM-based assistance on top. 
 
     🔹 We enable end-to-end chip design using open-source tools  
     🔹 Covering everything from RTL to GDSII  
     🔹 Supporting simulation, synthesis, layout, and verification  
-    🔹 Built for startups, students, and researchers in VLSI
+    🔹 Built for VLSI Designers, students, and researchers in VLSI
 
     Explore our design flows using the sidebar menu!
     """)
@@ -47,7 +47,7 @@ elif page == "Projects":
 elif page == "Contact":
     st.title("Contact Us")
     st.markdown("""
-    **Founder**: Kartikeya Pandey  
+    **Founder**: Kartikey Pandey  
     **Email**: [kartikeypandey8115@gmail.com](mailto:kartikeypandey8115@gmail.com)  
     **LinkedIn**: [fermi-semiconductors](https://www.linkedin.com/)  
     """)
